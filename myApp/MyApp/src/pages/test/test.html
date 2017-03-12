@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Test</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngFor="let image of images">
+    <div class="ion-md-image">
+      <img src="{{image.thumbnailUrl}}">
+    </div>
+  </div>
+</ion-content>
